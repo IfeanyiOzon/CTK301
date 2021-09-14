@@ -1,0 +1,63 @@
+.h1{
+  color: #FFFFFF;
+}
+
+.h2{
+  color: #0000FF;
+
+}
+
+.h3{
+  color: #000000;
+  background-color: #FFFF00
+}
+
+.KillMe{
+  color: FF0000;
+}
+
+.h4{
+  color: #FFFF00;
+  background-color: #228B22
+}
+
+.h5{
+  color: purple
+}
+
+
+
+.ART{
+  background-color: lightgreen;
+}
+
+
+.spandoctor {
+ color: orange;
+}
+.BigDoctor{
+  color: orange;
+}
+
+
+
+
+#Div1{
+  background-color: skyblue;
+}
+
+
+.spanlink{
+  color:#0000FF;
+}
+
+a {
+ color: #228B22;
+  text-decoration: none;
+}
+
+
+a:hover {
+ color: #FF0000;
+   text-decoration: underline;
+}
