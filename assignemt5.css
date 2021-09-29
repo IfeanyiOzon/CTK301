@@ -1,0 +1,62 @@
+.h1 {
+  font-size: 6em;
+  margin:4;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  color: blue;
+}
+.O{
+  color: orange;
+}
+body {
+background-image: url(Soul.png);
+background-repeat: no-repeat;
+background-position: top left;
+width: 600px
+}
+
+.bottomtext {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: blue;
+margin-top:600px;
+margin-right:0px
+}
+
+.largetext{
+font-weight: bold;
+font-size: 20px;
+
+
+}
+
+
+.Toprighttext {
+font-family: Arial, Helvetica, sans-serif;
+text-align: right;
+font-weight: bold;
+font-size: 15px;
+margin-left: 500px;
+margin-bottom: 50px;
+color: White;
+}
+
+.border-right {
+  border-right: 100px;
+}
+
+.Link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: blue;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px 60px 10px 100px;
+  margin: 20px 20px 20px 20px;
+}
+
+.Pgbox {
+padding: 15px 15px 100px 10px;
+margin: 15px 50px 100px 200px;
