@@ -1,46 +1,131 @@
-/* This is my new stylesheet */
-/*
-p {
- color: #ff0000;
- background-color: #0000FF;
-}
-*/
 
-h1{
-  color: #FFFFFF
-  background-color: #80CBB3;
+
+body {
+  background-color: grey;
 }
 
-a {
- color: #ff0000;
+header {
+  border: 2;
+  grid-column: span 4;
+  padding: 7px;
+  background-image: linear-gradient(#ADD8E6,#0266d1);
+}
+
+header h1 {
+  font-style: italic;
+  font-family: Helvetica, sans-serif;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #29abf6;
+  margin: 2em;
+}
+
+header h1 a:hover {
+  color: #FFFFFF;
   text-decoration: none;
 }
 
-a:hover {
- color: #0000FF;
-   text-decoration: underline;
-}
-.spanstyle{
-  color: #00FF00
+nav {
+  grid-column: span 4;
+  padding: 0;
+  margin: 0;
 }
 
-#divexample{
-  color: #0000FF;
-  background-color: #FFFF00;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#0288d1, #01519b);
+  border: 5px solid #01519b;
 }
 
-#Ifeanyi {
-  color: #00FF00;
-  background-color: #000000;
-
+nav li {
+  display: inline-block;
+  width: 225px;
+  margin: 0;
+  padding: 0;
+  border: 7px solid #01519b;
 }
 
-.specialp {
-  color: #00FF00;
-  background-color: #FFFFFF
+nav li a {
+  display: block;
+  background-image: linear-gradient(#0288d1, #01519b);
+  padding: 10px;
+  color: #29b6f6;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: none;
 }
 
-footer{
-  color: #FFFFFF;
-  background-color: #FF0000;
+nav li a:hover {
+    background-image: linear-gradient(#81d4fa, #039be5);
+    color: #01519b;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 4px solid #01399b;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+main h2 {
+  border-bottom: 4px solid #01519b;
+  padding: 7px;
+  color: #01519b;
+  font-family: Helvetica, sans-serif;
+}
+
+main #bolded {
+  font-weight: bolder;
+}
+
+main a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 4;
+  padding: 2em;
+}
+
+main .Gallery {
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+main a:hover {
+  color: #01019b;
+  text-decoration: underline;;
+}
+
+main img {
+  float: left;
+  border: 4px solid #01519b;
+  margin: 1em;
+}
+
+main .About {
+  float: right;
+  border: 4px solid #01519b;
+  margin: 1em;
+}
+
+footer {
+  grid-column: span 4;
+  background-color: red;
+  padding: 15px;
+  border-top: 5px solid #01519b;
+}
+
+footer a img {
+  align-content: left;
 }
