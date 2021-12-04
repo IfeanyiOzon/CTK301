@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fancy Example</title>
+<link rel="stylesheet" href="assignment12.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</head>
+<nav>
+  <ul>
+    <li><a href="Assignment11.html">Home Page</a></li> <li><a href="mockup.html">About Me</a></li> <li><a href="assignment12.html">Gallery</a></li>
+  </ul>
+</nav>
+
+
+<a href="Mj" data-fancybox="gallery" data-caption="Goat">
+  <img src="goatpic1.jpg">
+</a>
+<a href="Jordan" data-fancybox="gallery" data-caption="Flying motion">
+  <img src="1985.jpg">
+</a>
+<a href="1991" data-fancybox="gallery" data-caption="1991">
+  <img src="1991.jpg">
+</a>
+
+
+
+<body>
+  <div id="wrapper">
+    <div id="myCarousel" class="carousel">
+    <div class="carousel__slide"><img src="1991.jpg"></div>
+    <div class="carousel__slide"><img src="1985.jpg"></div>
+    <div class="carousel__slide"><img src="goatpic1.jpg"></div>
+</div>
+    <h1>Fancy Example</h1>
+    <script>
+  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+
+  });
+</script>
+  </div>
+</body>
+</html>
